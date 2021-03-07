@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>The Weather Page</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+
+        <link rel="stylesheet" href="assets/style.css"/>
+
+    </head>
+
+    <body>
+      <div class="main">
+      <!--Header Weather-->
+      <header class="subnav-hero-section">
+        <div >
+          <h1 class="name" id="name"></h1>
+          <p class="temp"></p>
+          <p class="humidity"></p>
+          <p class="wind"></p>
+          <p class="uv" ></p>
+
+        </div>
+      </header>
+
+      <!--Nav Baar-->
+      <nav class="scrollhide-nav">
+        <div class="top-bar">
+          <!--Title-->
+          <div class="top-bar-left">
+            <ul class="menu" data-dropdown-menu>
+              <li class="menu-text">The Weather Page</li>
+            </ul>
+          </div>
+          <!--Search Bar-->
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search" class="input_text"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row small-up-2 medium-up-3 large-up-4">
+        
+        <div class="column">
+          <h5>My Site</h5>
+          <p class="tempDay1"></p>
+          <p class="humDay1"></p>
+        </div>
+        <div class="column">
+          <h5>My Site</h5>
+          <p class="tempDay2"></p>
+          <p class="humDay2"></p>
+        </div>
+        <div class="column">
+          <h5>My Site</h5>
+          <p class="tempDay3"></p>
+          <p class="humDay3"></p>
+        </div>
+      
+      </div>
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="assets/script.js"></script>
+    </body>
+</html>
